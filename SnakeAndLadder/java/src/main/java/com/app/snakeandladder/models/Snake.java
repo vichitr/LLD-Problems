@@ -25,4 +25,7 @@ public class Snake {
     public void setTail(int tail) {
         this.tail = tail;
     }
+    
+    public String encounterSnake() {
+        return "You just encountered Snake!!!";
 }
