@@ -2,27 +2,27 @@ package com.app.snakeandladder.models;
 
 public class Snake {
 
-    private int headPosition;
-    private int tailPosition;
+    private int head;
+    private int tail;
 
-    public Snake(int headPosition, int tailPosition) {
-        this.headPosition = headPosition;
-        this.tailPosition = tailPosition;
+    public Snake(int head, int tail) {
+        this.head = head;
+        this.tail = tail;
     }
 
-    public int getHeadPosition() {
-        return headPosition;
+    public int getHead() {
+        return head;
     }
 
-    public void setHeadPosition(int headPosition) {
-        this.headPosition = headPosition;
+    public void setHead(int head) {
+        this.head = head;
     }
 
-    public int getTailPosition() {
-        return tailPosition;
+    public int getTail() {
+        return tail;
     }
 
-    public void setTailPosition(int tailPosition) {
-        this.tailPosition = tailPosition;
+    public void setTail(int tail) {
+        this.tail = tail;
     }
 }
